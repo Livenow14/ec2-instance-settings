@@ -10,9 +10,9 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose && \
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
-sudo apt install mysql-server
+sudo apt install -y mysql-server
 
-sudo apt install default-jdk
+sudo apt install -y default-jdk
 
 sudo rm /etc/localtime
 
