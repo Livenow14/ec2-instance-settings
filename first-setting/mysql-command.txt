@@ -1,0 +1,7 @@
+create user 'username'@'localhost' identified by 'password';
+grant all privileges on *.* to 'username'@'localhost';
+flush privileges;
+CREATE DATABASE db_name DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '바꿀 비밀번호';
