@@ -1,7 +1,7 @@
 #!bin/bash
 
 if [ $# -lt 1 ] ;  then
-  echo '인수를 넘겨주세요 (sudo sh install.sh your-domain-name)'
+  echo '도메인 이름을 작성해주세요 (sudo sh install.sh your-domain-name)'
   exit 1
 fi
 

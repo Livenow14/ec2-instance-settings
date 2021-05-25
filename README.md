@@ -1,4 +1,4 @@
-# **[ec2] 초기 세팅 설정 파일**
+# **[ec2] 초기 세팅 스크립트**
 
 ### **1. Git clone 받기**
 
@@ -34,6 +34,10 @@
 
 ![https://user-images.githubusercontent.com/48986787/119521584-4092eb80-bdb6-11eb-9c2d-d506d33dac79.png](https://user-images.githubusercontent.com/48986787/119521584-4092eb80-bdb6-11eb-9c2d-d506d33dac79.png)
 
+**after**
+
+![https://user-images.githubusercontent.com/48986787/119525381-6a99dd00-bdb9-11eb-9a90-2027b18a762b.png](https://user-images.githubusercontent.com/48986787/119525381-6a99dd00-bdb9-11eb-9a90-2027b18a762b.png)
+
 ### **6, [0.all-setting.sh](http://0.all-setting.sh) 실행**
 
 ### **실행하기전에 주의점!!**
@@ -49,7 +53,7 @@ $ sudo sh 0.all-setting.sh 도메인명
 예시)
 
 ```java
-sudo sh 0.all-setting.sh gump-test.p-e.kr
+$ sudo sh 0.all-setting.sh gump-test.p-e.kr
 ```
 
 ![https://user-images.githubusercontent.com/48986787/119522368-db8bc580-bdb6-11eb-809d-5dbe7ffa5224.png](https://user-images.githubusercontent.com/48986787/119522368-db8bc580-bdb6-11eb-809d-5dbe7ffa5224.png)
